@@ -11,7 +11,7 @@ java -jar app.jar [COMMAND] [ARGUMENTS]
             shop_info %SHOP_ID%
 """
 
-private val billing = BillingImpl()
+val billing = BillingImpl()
 
 fun main(args: Array<String>) {
     try {
